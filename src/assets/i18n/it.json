@@ -1,0 +1,181 @@
+{
+  "routes": {
+    "title": {
+      "welcome": "Caffè italiano, noleggio macchine caffè, servizio macchine caffè",
+      "caffe": "Caffè italiano in grani di marca Goriziana a San Pietroburgo e in Russia",
+      "machine": "Noleggio macchine da caffè italiane Sanremo a San Pietroburgo",
+      "maintenance": "Manutenzione e riparazione di macchine da caffè italiane a San Pietroburgo"
+    },
+    "description": {
+      "welcome": "Caffè e cioccolata calda italiano, noleggio macchine caffè e macinacaffè, servizio macchine caffè",
+      "caffe": "Caffè italiano in grani di marca Goriziana e cioccolata calda Ristora a San Pietroburgo",
+      "machine": "Noleggio macchine da caffè italiane Sanremo e macinacaffè Fiorenzato a San Pietroburgo",
+      "maintenance": "Manutenzione e riparazione di macchine da caffè italiane a San Pietroburgo"
+    }
+  },
+  "header": {
+    "logo": "ITALY COFFEE SERVICE",
+    "machine": "Macchine caffé",
+    "service": "Servizio",
+    "coffee": "Caffé",
+    "contacts": "Contatti"
+  },
+  "footer": {
+    "logo": "ITALY COFFEE SERVICE",
+    "contacts": "Come trovarci:",
+    "buy": "Come comprare: ",
+    "delivery": "Si puó ritirare la merce presso il nostro ufficio in Italianskaya 23 dalle 10:00 alle 18:00 dal lunedì al venerdì (si prega di chiamare prima) oppure ordinare la consegna per San Pietroburgo e Leningradskaya oblast'\n\nCosto di consegna é da 300 rubli, a seconda della distanza dal nostro ufficio",
+    "address": "Russia, San Pietroburgo, Italianskaya 23",
+    "public-offerta": "*Le proposte presentate non costituiscono offerta al pubblico"
+  },
+  "main": {
+    "can-buy": "Qui si puó comprare e affitare tutto per il vero caffé italiano",
+    "who": "Chi siamo",
+    "who-text": "ITALY COFFEE SERVICE sono le persone appasionate dal gusto e dall'aroma del caffè che hanno deciso di dedicarsi a questo magico mondo. Il nostro obiettivo è portare un po’ di magia del caffè in ogni casa. Per farlo troviamo varietà di caffè di altissima qualità e attrezzature professionali di prima classe per la sua preparazione. Prepara una tazza di bevanda squisita a casa o delizia i tuoi clienti con un gusto e un aroma favolosi: ti aiuteremo in entrambi i casi.",
+    "what": "Cosa offriamo",
+    "offer-title-1": "Noleggio macchine da caffè",
+    "offer-text-1": "Macchine da caffè italiane professionali...",
+    "offer-title-2": "Servizio macchina da caffe",
+    "offer-text-2": "Riparazione e manutenzione macchine da caffè...",
+    "offer-title-3": "Caffè in grani",
+    "offer-text-3": "Varietá selezionate di caffè italiano...",
+    "clients": "Per chi lavoriamo",
+    "clients-text": "Ogni amante di salutare il giorno nuovo con una tazza di bevanda aromatica può acquistare il caffè italiano in grani tostati Goriziana Caffé da ITALY COFFEE SERVICE. Puoi acquistare un pacchetto per te o come regalo per una persona cara. Ci occupiamo anche della vendita di caffè, del noleggio, della vendita e del servizio di macchine caffè professionali per uffici, bar e ristoranti. Tra i nostri clienti ci sono ",
+    "clients-text-semibold": "Amarcord caffè, Rusticone caffè, Pizzeria da Vincenzo, Ripasso, Espress Trattoria, Kazoku, Tony & Guy, AJ coffee roasters, Cultura coffee roasters, 33 пингвина, Imperial, Gran Imperial"
+  },
+  "not-found": {
+    "not-found-text": "Ci dispiace, la pagina non esiste...",
+    "back": "Tornare a homepage"
+  },
+  "caffe": {
+    "goriziana": "Goriziana Caffé",
+    "ristora": "Ristora Densa",
+    "can-buy": "Qui si puó comprare e affitare tutto per il vero caffé italiano",
+    "choose": "Scegli un caffè preferito",
+    "offers": "Offerta speciale",
+    "offer1": "Per ordini superiori a 10 kg: sconti e consegna gratuita per San Pietroburgo e Leningradskaya oblast'.",
+    "offer2": "Per il ritiro da Italianskaya 23 - degustazione gratuita",
+    "about-part1": "Da noi si puó acquistare il caffè di una delle migliori marche di caffè in Italia, ",
+    "about-part2": "Goriziana Caffé è prodotto nella piccola città di Gorizia vicino a Venezia e si distingue per il suo gusto profondo e ricco, l'aroma e, naturalmente, la tradizionale qualità italiana.",
+    "about-part3": "Abbiamo anche la cioccolata calda, deliziosa e facile da preparare, ",
+    "weight": "Peso: ",
+    "price": "Prezzo: ",
+    "kilogram": "kg",
+    "currency": "rub",
+    "more": "Leggere di più",
+    "creaminess": "Cremosità",
+    "intensity": "Intensità",
+    "density": "Corpo",
+    "aroma": "Aroma",
+    "sweetness": "Dolcezza",
+    "data": {
+      "1": {
+        "weight": "1kg",
+        "description": "Una miscela di qualità dall’aroma pieno ed esclusivo e dal gusto rotondo, ottenuta con un elevato contenuto di caffè Arabica accuratamente selezionati. La presenza di caffè Robusta di alto lignaggio garantisce una schiuma corposa, ricca e persistente. Per noi rappresenta l’eccellenza dell’equilibrio."
+      },
+      "2": {
+        "weight": "1kg",
+        "description": "È un’armonica miscela composta da caffè Arabica e Robusta selezionati: un’unione da cui nasce un caffè estremamente cremoso, dal gusto gradevole, adatto a chi predilige un sapore deciso. Un classico caffè espresso italiano dalla tazza piena, con tutte le peculiarità che l’hanno reso famoso nel mondo."
+      },
+      "3": {
+        "weight": "1kg",
+        "description": "Questa miscela, che esalta le migliori caratteristiche di un ottimo caffè, è l’eccellente risultato di un’accurata selezione delle migliori qualità di caffè Arabica esistenti al mondo. Dal gusto morbido, dolce e liquoroso, dall’aroma “cioccolatato”, con un’acidità fine ed equilibrata e un’ottima corposità. Al top della linea “Goriziana”, racchiude tutto lo spirito della nostra passione di “fare caffè”."
+      },
+      "4": {
+        "weight": "1kg",
+        "description": "'San Giusto cremoso' nasce dalla miscela di qualità Arabica accuratamente selezionate e di caffè Robusta di alto lignaggio. Ne deriva un equilibrio di sensazioni gustative che abbina ad un corpo ricco e persistente un aroma pieno ed esclusivo."
+      },
+      "5": {
+        "weight": "7g * 150pz",
+        "description": "Una miscela morbida ed equilibrata con un elevato contenuto di caffè Arabica per le pratiche e comode cialde monodose, che permettono di ottenere anche a casa il piacere di un espresso come quello del bar. Grazie alla singola porzione confezionata in atmosfera protetta, la fragranza e l’aroma del caffè non vengono intaccati da agenti esterni, permettendo di ottenere da ogni cialda il massimo del gusto."
+      },
+      "6": {
+        "weight": "7g * 18pz",
+        "description": "Miscela morbida e vellutata con tenore di caffeina non superiore allo 0,1%. Gusto dolce. Scelta perfetta per chi non vuole rinunciare ad un buon caffè."
+      },
+      "7": {
+        "weight": "1kg",
+        "description": "Ideale per il bar o il distributore automatico e anche per chi usa molta cioccolata calda, preparare la Cioccolata Densa Ristora Solubile è molto comoda anche a casa. Soprattutto se hai bambini, non puoi vivere senza cioccolata calda. Una bevanda professionale freschissima e pronta all'uso."
+      }
+    }
+  },
+  "machine": {
+    "sanremo": "Sanremo",
+    "fiorenzato": "Fiorenzato",
+    "rent": "Noleggiare macchina da caffé",
+    "offers": "Offerta speciale",
+    "offer1": "Ordina da 15 kg di caffè al mese per Sanremo Capri o da 20 kg al mese per Sanremo Zoe e noleggia gratuitamente una macchina da caffè e un macinacaffè",
+    "offer2": "Se noleggi una macchina da caffè, noleggia un macinacaffè gratuitamente",
+    "about-part1": "Offriamo il noleggio di macchine da caffè professionali della marca italiana ",
+    "about-part2": "Le macchine da caffè Sanremo sono una fusione di affidabilità, tradizione e tecnologia all'avanguardia nel campo della preparazione del caffè. Sono adatti per bar e ristoranti, ma anche per uffici, saloni di bellezza e cliniche private. Sanremo permette di esaltare al massimo il gusto e l'aroma dei grani di caffè.",
+    "about-part3": "Da noi puoi anche noleggiare macinacaffè italiane ",
+    "power": "Potenza: ",
+    "price": "Prezzo: ",
+    "type": "Tipo: ",
+    "watt": "kW",
+    "voltage": "Voltaggio: ",
+    "volt": "V",
+    "mm": "mm",
+    "width": "Larghezza: ",
+    "height": "Altezza: ",
+    "depth": "Profondità: ",
+    "weight": "Peso: ",
+    "kilogram": "kg",
+    "color": "* il colore può essere diverso da quello nella foto",
+    "currency": "rub/mese",
+    "more": "Leggere di più",
+    "data": {
+      "1": {
+        "type": "Semiautomatica",
+        "description": "La macchina da caffè semiautomatica monogruppo è dotata di un affidabile meccanismo per la preparazione del caffè con dosaggio regolabile. Sanremo Capri SAP 1 è ideale per piccoli bar e caffetterie con un barista professionista"
+      },
+      "2": {
+        "type": "Semiautomatica",
+        "description": "Con Sanremo Capri SAP 2 è possibile preparare due tazze di caffè contemporaneamente e impostare il dosaggio del caffè in modalità semiautomatica. Adatto a bar e ristoranti che vogliono dare risalto alla preparazione del caffè e alla professionalità del barista"
+      },
+      "3": {
+        "type": "Automatica",
+        "description": "Piccola e facile da usare, la macchina da caffè Sanremo Capri SED 1 con dosaggio automatico del caffè è ideale per l'utilizzo in uffici, saloni di bellezza e piccoli bar con un flusso dei clienti. Sanremo Capri SED 1 può essere facilmente utilizzata da una persona senza esperienza di barista"
+      },
+      "4": {
+        "type": "Automatica",
+        "description": "La macchina da caffè automatica Sanremo Capri SED 2 è facile da usare. Permette di preparare due tazze di caffè contemporaneamente ed è adatto per l'uso in ristoranti e bar con un grande flusso dei clienti"
+      },
+      "5": {
+        "type": "Semiautomatica",
+        "description": "La piccola macchina da caffè semiautomatica Sanremo Zoe SAP 1 è realizzata in stile moderno. Il telaio della macchina da caffè fa parte dell'involucro esterno. Questa soluzione aumenta l'affidabilità del progetto. Sanremo Zoe SAP 1 è adatto ai piccoli bar con un flusso costante di visitatori e un barista professionista"
+      },
+      "6": {
+        "type": "Semiautomatica",
+        "description": "Sanremo Zoe SAP 2 è una macchina da caffè a due gruppi dal design altamente affidabile. Permette al barista di preparare due tazze di caffè contemporaneamente e di servire velocemente un grande flusso di clienti"
+      },
+      "7": {
+        "type": "Automatica",
+        "description": "Sanremo Zoe SED 1 è una macchina da caffè facile da usare e dal design elegante. Il telaio della macchina da caffè fa parte dell'involucro esterno, il che aumenta l'affidabilità del design. Sanremo Zoe SED 1 è adatto all'uso non solo nei bar, ma anche negli uffici, nei saloni di bellezza e nelle aree reception"
+      },
+      "8": {
+        "type": "Automatica",
+        "description": "Sanremo Zoe SED 2 è una macchina da caffè a due gruppi facile da usare e affidabile, ideale per l'utilizzo in bar e ristoranti con un flusso denso di visitatori"
+      },
+      "9": {
+        "type": "Macinacaffé",
+        "description": "Il macinacaffè dell'azienda italiana Fiorenzato è dotata di touch screen e meccanismo di regolazione della macinatura. Grazie al sistema di dosaggio porzionato, Fiorenzato F64 consente di ottenere in qualsiasi momento una porzione di caffè aromatico appena macinato"
+      }
+    }
+  },
+  "maintenance": {
+    "temp": "Questa pagina é in costruzione. Si prega di chiamarci per le domande della manutenzione delle macchine da caffé",
+    "care": "Prendersi cura della macchina da caffè",
+    "about": "ITALY COFFEE SERVICE fornisce una gamma completa di servizi per la fornitura, installazione, assistenza e supporto tecnico di macchine da caffè professionali Sanremo, Victoria Arduino, Nuova Simonelli, La Marzocco, Astoria, Futurmat, Wega e altri marchi",
+    "offerte": "Offerte speciali",
+    "offer1": "Macchina da caffè sostitutiva gratuita in caso di revisione importante o manutenzione completa",
+    "cosa": "I nostri servizi",
+    "offer-title-1": "Servizio di supporto (consulenza, formazione per baristi ecc)",
+    "offer-title-2": "Manutenzione (installazione, regolazione del macinacaffè e della macchina da caffè)",
+    "offer-title-3": "Pezzi di ricambio e riparazioni",
+    "specialista": "Visita di uno specialistica tecnico",
+    "specialist-things": "* diagnostica della macchina da caffè\n\n* controllo dello stato delle guarnizioni in gomma del gruppo\n\n* stato dei rubinetti del vapore, guarnizioni\n\n* controllo della pressione del pompa/caldaia\n\n* controllo delle condizioni tecniche generali dell'attrezzatura\n\n* identificazione dei guasti (determinazione del costo finale delle riparazioni)\n\n* raccomandazioni basate sui risultati diagnostici\n\n* riparazioni minori (incluse nel costo della chiamata)\n\n* valutazione stato delle macine del macinacaffè\n\n* impostazione macinatura e grammatura\n\n* pulizia delle macine (da pagare a parte)",
+    "capital": "Revisione importante macchina da caffè",
+    "capital-steps": "1. La macchina da caffè è completamente smontata fino alla carrozzeria\n2. Il sistema idraulico è decalcificato (tutte le parti in rame)\n3. Le parti vengono accuratamente lavate con acqua corrente e lucidate\n4. La carrozzeria viene lavata ad alta pressione\n5. Tutti i materiali di consumo (pompa, pressostato, condensatore, guarnizioni, filtro, OR elastici, valvole di emergenza e dell'aria, ecc.) vengono sostituiti con nuovi\n6 Se necessario, vengono eseguiti lavori di saldatura (calcolati a parte), ad esempio la realizzazione di tubi, la saldatura di un vetro o la sostituzione della flangia stessa\n7 Verniciatura dei pannelli della carrozzeria (calcolata a parte) - tutti gli elementi vengono sabbiati, quindi inseriti in una camera di verniciatura"
+  }
+}

@@ -1,0 +1,13 @@
+.overlay-image-machine {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 7rem;
+  height: 8rem;
+  background-image: url(../../../assets/images/svg/logo-7.svg);
+}
+
+.size-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}

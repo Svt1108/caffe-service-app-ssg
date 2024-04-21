@@ -1,0 +1,143 @@
+.caffe-wrap {
+  background-image: url("../../../assets/images/back-caffe2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  color: #d8d2cd;
+  line-height: 150%;
+  letter-spacing: 0.05rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.caffe-wrap-inside {
+  background-color: rgba(55, 38, 22, 0.2);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: center;
+  padding: 4rem 0 3rem 0;
+  row-gap: 3rem;
+}
+
+.caffe-about-part1 {
+  padding: 0;
+}
+
+.caffe-about-part2 {
+  padding: 1rem 0 0 0;
+}
+
+.goriziana-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0.5rem;
+  gap: 2rem;
+  background: rgba(55, 38, 22, 0.5);
+}
+
+.goriziana {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 6rem;
+  width: 6rem;
+}
+
+.goriziana-logo {
+  background-image: url("../../../assets/images/logo-goriziana.png");
+}
+
+.goriziana-type1 {
+  background-image: url("../../../assets/images/certificato-goriziana-type1.png");
+}
+
+.goriziana-type2 {
+  background-image: url("../../../assets/images/certificato-goriziana-type2.png");
+}
+
+.goriziana-type3 {
+  background-image: url("../../../assets/images/certificato-goriziana-type3.png");
+}
+
+.goriziana-type4 {
+  background-image: url("../../../assets/images/certificato-goriziana-type4.png");
+}
+
+.caffe-button {
+  height: 100%;
+  border: 3px solid rgba(216, 210, 205, 0.4);
+  box-shadow: 0 2px 2px 0 rgba(216, 210, 205, 0.1),
+    0 6px 40px 5px rgba(216, 210, 205, 0.1),
+    0 8px 10px -7px rgba(216, 210, 205, 0.1);
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #d8d2cd;
+  justify-content: center;
+  display: inline-block;
+  word-wrap: break-word;
+  background-color: rgba(55, 38, 22, 0.6);
+  margin-top: 1rem;
+  &:hover {
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+}
+
+// .special-offers-wrap {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   text-align: center;
+//   gap: 1rem;
+//   padding: 2rem 2rem;
+//   background: rgba(55, 38, 22, 0.5);
+// }
+
+// .special-offers-image {
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   width: 7rem;
+//   height: 7rem;
+//   background-image: url(../../../assets/images/svg/logo-2-light.svg);
+// }
+
+// .special-offers {
+//   font-size: 1rem;
+//   font-weight: 600;
+//   text-transform: uppercase;
+// }
+
+// .special-offer {
+//   font-size: 0.9rem;
+// }
+
+@keyframes special-offers-animation {
+  from {
+    background-color: rgba(8, 133, 46, 0.1);
+  }
+
+  25% {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  50% {
+    background-color: rgba(224, 31, 14, 0.2);
+  }
+
+  75% {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  to {
+    background-color: rgba(8, 133, 46, 0.2);
+  }
+}

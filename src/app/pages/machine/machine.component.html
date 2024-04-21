@@ -1,0 +1,104 @@
+<ng-container *transloco="let t; read: 'machine'">
+  <p-scrollTop></p-scrollTop>
+  <div class="machine-wrap distance-to-footer pt-8 md:pt-7">
+    <div class="block-title-wrap pt-6 lg:pt-7 lg:pb-5">
+      <h1 class="block-title">
+        {{ t("rent") }}
+      </h1>
+    </div>
+    <div class="common-text-wrap">
+      <video
+        id="video_machine"
+        class="video-player max-w-21rem md:max-w-30rem"
+        data-video-player--video-player-target="video"
+        poster="../../../assets/images/poster-machine.jpg"
+        src="../../../assets/video/machine-video.mp4"
+        type="video/mp4"
+        controlslist="nodownload"
+        disablepictureinpicture
+        webkit-playsinline="true"
+        playsinline
+        autoplay
+        loop
+        muted="true"
+        onclick="this.play()"
+      ></video>
+      <div class="flex flex-column common-text-machine">
+        <p class="caffe-about-part1">
+          {{ t("about-part1")
+          }}<span class="font-semibold">{{ t("sanremo") }}</span
+          >.
+        </p>
+        <p class="caffe-about-part2">{{ t("about-part2") }}</p>
+        <p class="caffe-about-part2">
+          {{ t("about-part3")
+          }}<span class="font-semibold">{{ t("fiorenzato") }}</span
+          >.
+        </p>
+      </div>
+    </div>
+    <div class="pt-7 col-12 pl-0 pr-0">
+      <div class="special-offers-wrap">
+        <h3 class="special-offers">{{ t("offers") }}</h3>
+        <p class="special-offer">
+          <i class="pi pi-angle-double-down" style="font-size: 1.5rem"></i>
+        </p>
+        <p class="special-offer">{{ t("offer1") }}</p>
+        <p class="special-offer">{{ t("offer2") }}</p>
+        <div class="special-offers-image"></div>
+      </div>
+    </div>
+    <div class="cards-wrap col-12 flex justify-content-center p-0">
+      <div class="cards column-gap-8 col-12 lg:col-10 xl:col-10">
+        <div *ngFor="let item of dataMachine">
+          <div
+            class="card-my shadow-6"
+            [ngClass]="this.scaleImage === item.id ? 'scale-image' : ''"
+          >
+            <p class="card-title">{{ item.name }}</p>
+            <div
+              class="card-image-wrap"
+              (click)="this.toggleScaleImage(item.id)"
+              (mouseleave)="this.toggleScaleImage(this.scaleImage)"
+            >
+              <img
+                src="../../../assets/images/machines/{{ item.image }}"
+                alt="service"
+                class="card-image border-20-proc"
+              />
+            </div>
+            <p class="card-text">
+              <span class="text-sm">{{ t("type") }}</span
+              >{{ t("data." + item.id + ".type") }}
+            </p>
+            <p class="card-text">
+              <span class="text-sm">{{ t("price") }}</span
+              >{{ item.price }} {{ t("currency") }}
+            </p>
+
+            <p-overlayPanel #op [showCloseIcon]="true">
+              <ng-template pTemplate="content">
+                <app-overlay></app-overlay>
+              </ng-template>
+            </p-overlayPanel>
+            <button
+              pButton
+              pRipple
+              type="button"
+              class="caffe-button shadow-4"
+              (click)="
+                this.overlayService.setOverlayValue({
+                  flag: 'machine',
+                  id: item.id
+                });
+                op.toggle($event)
+              "
+            >
+              {{ t("more") }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>

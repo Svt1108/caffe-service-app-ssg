@@ -1,0 +1,75 @@
+<ng-container *transloco="let t; read: 'header'">
+  <div
+    *ngIf="!(this.path404service.isPath404$ | async)"
+    class="header-wrap justify-content-end h-4rem"
+  >
+    <div
+      class="logo-wrap shadow-6 hidden md:flex md:h-full md:w-15rem lg:w-auto"
+      routerLink="/welcome"
+    >
+      <div class="logo-image-wrap">
+        <div class="logo-image"></div>
+      </div>
+      <div class="logo-text">{{ t("logo") }}</div>
+    </div>
+    <div
+      class="buttons-wrap col-12 h-2rem md:col-6 md:h-full lg:col-5 xl:col-4"
+    >
+      <button
+        pButton
+        pRipple
+        type="button"
+        class="col-4 button-green"
+        routerLink="/machine"
+      >
+        {{ t("machine") }}
+      </button>
+      <button
+        pButton
+        pRipple
+        type="button"
+        class="col-4 button-white"
+        routerLink="/maintenance"
+      >
+        {{ t("service") }}
+      </button>
+      <button
+        pButton
+        pRipple
+        type="button"
+        class="col-4 button-red"
+        routerLink="/caffe"
+      >
+        {{ t("coffee") }}
+      </button>
+    </div>
+    <div class="lang h-2rem gap-4 w-8rem md:h-full md:gap-5 md:w-12rem">
+      <button
+        type="button"
+        class="button-lang scale"
+        (click)="this.viewportscroller.scrollToAnchor('footer')"
+      >
+        <i class="pi pi-phone" style="font-size: 1.2rem"></i>
+      </button>
+      <ng-template [ngIf]="this.isVisible">
+        <div class="lang-menu-wrap" (click)="changeMenuVisibility()">
+          <p-menu #menu [model]="items" class="lang-menu"></p-menu>
+        </div>
+      </ng-template>
+
+      <button
+        type="button"
+        class="button-lang scale"
+        (click)="changeMenuVisibility()"
+      >
+        <i class="pi pi-globe" style="font-size: 1.2rem"></i>
+      </button>
+      <button type="button" class="button-lang scale" routerLink="/welcome">
+        <i class="pi pi-home" style="font-size: 1.3rem"></i>
+      </button>
+    </div>
+    <div class="logo-wrap-mobile flex md:hidden" routerLink="/welcome">
+      {{ t("logo") }}
+    </div>
+  </div>
+</ng-container>

@@ -1,0 +1,181 @@
+{
+  "routes": {
+    "title": {
+      "welcome": "Italian coffee, coffee machine rental, coffee machine service",
+      "caffe": "Italian coffee bean brand Goriziana in St. Petersburg and Russia",
+      "machine": "Italian coffee machines Sanremo rental in St. Petersburg",
+      "maintenance": "Maintenance and repair of Italian coffee machines in St. Petersburg"
+    },
+    "description": {
+      "welcome": "Italian coffee and hot chocolate, coffee machine and coffee grinder rental, coffee machine service",
+      "caffe": "Italian coffee bean Goriziana and hot chocolate Ristora in St. Petersburg",
+      "machine": "Italian coffee machines Sanremo and coffee grinder Fiorenzato rental in St. Petersburg",
+      "maintenance": "Maintenance and repair of Italian coffee machines in St. Petersburg"
+    }
+  },
+  "header": {
+    "logo": "ITALY COFFEE SERVICE",
+    "machine": "Coffee machines",
+    "service": "Service",
+    "coffee": "Coffee",
+    "contacts": "Contacts"
+  },
+  "footer": {
+    "logo": "ITALY COFFEE SERVICE",
+    "contacts": "How to find us: ",
+    "buy": "How to buy: ",
+    "delivery": "You can pick up the goods from our office on Italianskaya 23 from 10:00 to 18:00 Mon-Fri (call before please) or order delivery for St. Petersburg and Leningradskaya oblast'\n\nDelivery costs from 300 rubles, depending on the distance from our office",
+    "address": "Russia, St-Petersburg, Italianskaya 23",
+    "public-offerta": "*The proposals presented are not a public offer"
+  },
+  "main": {
+    "can-buy": "You can buy and rent all for true italian coffee",
+    "who": "Who we are",
+    "who-text": "ITALY COFFEE SERVICE are people who are fascinated by the taste and aroma of coffee and decide to devote themselves to this magical world. Our goal is to bring a little coffee magic to every home. To do this, we find the highest quality coffee varieties and first-class professional equipment for its preparation. Make a cup of exquisite drink at home or delight your clients with a fabulous taste and aroma - we will help with both.",
+    "what": "What are we offering",
+    "offer-title-1": "Coffee machines rental",
+    "offer-text-1": "Professional italian coffee machines...",
+    "offer-title-2": "Coffe machine's service",
+    "offer-text-2": "Coffee machine repair and maintenance...",
+    "offer-title-3": "Coffee beans",
+    "offer-text-3": "Selected varieties of Italian coffee...",
+    "clients": "Who do we work for",
+    "clients-text": "Every lover of greeting a new day with a cup of aromatic drink can purchase Italian roasted bean coffee Goriziana Caffé from ITALY COFFEE SERVICE. You can buy a package for yourself or as a gift to a loved one. We also wholesale coffee, rent, sell and service professional coffee machines for offices, cafes and restaurants. Among our clients are ",
+    "clients-text-semibold": "Amarcord caffè, Rusticone caffè, Pizzeria da Vincenzo, Ripasso, Espress Trattoria, Kazoku, Tony & Guy, AJ coffee roasters, Cultura coffee roasters, 33 пингвина, Imperial, Gran Imperial"
+  },
+  "not-found": {
+    "not-found-text": "We are sorry, page doesn't exist...",
+    "back": "Back to homepage"
+  },
+  "caffe": {
+    "goriziana": "Goriziana Caffé",
+    "ristora": "Ristora hot chocolate",
+    "can-buy": "You can buy and rent all for true italian coffee",
+    "choose": "Choose your favorite coffee",
+    "offers": "Special offers",
+    "offer1": "For orders over 10 kg - discounts and free delivery for St. Petersburg and Leningradskaya oblast'.",
+    "offer2": "For pickup from the str. Italianskaya 23 - free tasting",
+    "about-part1": "Here you can purchase coffee from one of the best coffee brands in Italy, ",
+    "about-part2": "Goriziana Caffé is produced in the small town of Gorizia near Venice, and is distinguished by its deep rich taste, aroma and, of course, traditional Italian quality.",
+    "about-part3": "We also have delicious and easy-to-prepare ",
+    "weight": "Weight: ",
+    "price": "Price: ",
+    "kilogram": "kg",
+    "currency": "rub",
+    "more": "Read more",
+    "creaminess": "Creaminess",
+    "intensity": "Intensity",
+    "density": "Density",
+    "aroma": "Aroma",
+    "sweetness": "Sweetness",
+    "data": {
+      "1": {
+        "weight": "1kg",
+        "description": "High-quality blend with a deep, exclusive aroma and soft taste, with a high content of carefully selected Arabica coffee varieties. The presence of Robusta coffee guarantees a rich, dense and persistent foam. 'Selezione blue' is the perfect balance of aroma and strength."
+      },
+      "2": {
+        "weight": "1kg",
+        "description": "A harmonious blend consisting of selected Arabica and Robusta coffees: a union from which an exceptionally creamy coffee with a pleasant aroma suitable for those who prefer a strong taste. Classic Italian espresso, with the special properties that made it world famous."
+      },
+      "3": {
+        "weight": "1kg",
+        "description": "The blend is the result of a careful selection of high-quality Arabica varieties. Soft, sweet and strong, with a 'chocolate' aroma, with fine and balanced acidity and excellent richness. The pinnacle of the 'Goriziana' line, it shows the Italian passion for coffee making."
+      },
+      "4": {
+        "weight": "1kg",
+        "description": "'San Giusto cremoso' comes from a carefully selected blend of Arabica and Robusta beans of noble origin. This union results in a balanced taste experience that combines a rich, persistent base and an exclusive aroma."
+      },
+      "5": {
+        "weight": "7g * 150pcs",
+        "description": "A soft and balanced blend with a high content of Arabica coffee for the practical and convenient single-dose pods, which allow you to obtain the pleasure of espresso both in cafe and at home. Thanks to the single portion packaged in a protected atmosphere, the fragrance and aroma of the coffee are not affected by external agents, allowing maximum flavor to be obtained from each pod."
+      },
+      "6": {
+        "weight": "7g * 18pcs",
+        "description": "Soft and velvety blend with caffeine content not exceeding 0.1%. Sweet taste. Perfect choice for those who don't want to give up a good coffee."
+      },
+      "7": {
+        "weight": "1kg",
+        "description": "Ideal for a bar or vending machine and also for those who use a lot of hot chocolate, preparing Cioccolata Densa Ristora Solubile is also very convenient at home. Especially if you have children, you can't live without hot chocolate. A very fresh and ready to use professional drink."
+      }
+    }
+  },
+  "machine": {
+    "sanremo": "Sanremo",
+    "fiorenzato": "Fiorenzato",
+    "rent": "Rent coffee machine",
+    "offers": "Special offers",
+    "offer1": "Order from 15 kg of coffee per month for Sanremo Capri or from 20 kg per month for Sanremo Zoe - free rent a coffee machine and coffee grinder",
+    "offer2": "If you rent a coffee machine, you receive coffee grinder's rent for free",
+    "about-part1": "We offer rental of professional Italian brand coffee machines ",
+    "about-part2": "Sanremo coffee machines are a fusion of reliability, tradition and the latest technology in the field of coffee preparation. They are suitable for cafes and restaurants, as well as for offices, beauty salons, and private clinics. Sanremo allows you to show off the taste and aroma of coffee beans.",
+    "about-part3": "Here you can also rent Italian coffee grinders ",
+    "power": "Power: ",
+    "price": "Price: ",
+    "type": "Type: ",
+    "watt": "kW",
+    "voltage": "Voltage: ",
+    "volt": "V",
+    "mm": "mm",
+    "width": "Width: ",
+    "height": "Height: ",
+    "depth": "Depth: ",
+    "weight": "Weight: ",
+    "kilogram": "kg",
+    "color": "* color may be different from the photo",
+    "currency": "rub/month",
+    "more": "Read more",
+    "data": {
+      "1": {
+        "type": "Semi-automatic",
+        "description": "The single-group semi-automatic coffee machine is equipped with a reliable mechanism for preparing coffee with adjustable dosage. Sanremo Capri SAP 1 is ideal for small cafes and coffee shops with a professional barista"
+      },
+      "2": {
+        "type": "Semi-automatic",
+        "description": "Sanremo Capri SAP 2 allows you to prepare two cups of coffee at the same time, as well as set the coffee dosage in a semi-automatic mode. Suitable for cafes and restaurants that want to emphasize coffee preparation and the professionalism of the barista"
+      },
+      "3": {
+        "type": "Automatic",
+        "description": "Small and easy to use, the Sanremo Capri SED 1 coffee machine with automatic coffee dosing is ideal for use in offices, beauty salons and small cafes with a constant flow of visitors. Sanremo Capri SED 1 can be easily used by a person without barista experience"
+      },
+      "4": {
+        "type": "Automatic",
+        "description": "The Sanremo Capri SED 2 automatic coffee machine is easy to operate. It allows you to prepare two cups of coffee at the same time and is suitable for use in restaurants and cafes with a large flow of visitors"
+      },
+      "5": {
+        "type": "Semi-automatic",
+        "description": "The small semi-automatic coffee machine Sanremo Zoe SAP 1 is made in a modern style. The frame of the coffee machine is part of the outer casing. This solution increases the reliability of the construction. Sanremo Zoe SAP 1 is suitable for small coffee shops with a constant flow of visitors and a professional barista"
+      },
+      "6": {
+        "type": "Semi-automatic",
+        "description": "Sanremo Zoe SAP 2 is a two-group coffee machine with a highly reliable design. Allows the barista to prepare two cups of coffee at the same time and quickly serve a large flow of customers"
+      },
+      "7": {
+        "type": "Automatic",
+        "description": "Sanremo Zoe SED 1 is an easy-to-use coffee machine with an elegant design. The frame of the coffee machine is part of the outer casing, which increases the reliability of the design. Sanremo Zoe SED 1 is suitable for use not only in coffee shops, but also in offices, beauty salons, and reception areas"
+      },
+      "8": {
+        "type": "Automatic",
+        "description": "Sanremo Zoe SED 2 is an easy-to-use and reliable two-group coffee machine ideal for use in cafes and restaurants with a dense flow of visitors"
+      },
+      "9": {
+        "type": "Coffee grinder",
+        "description": "The coffee grinder from the Italian company Fiorenzato is equipped with a touch screen and a grinding adjustment mechanism. Thanks to the portion dosing system, Fiorenzato F64 allows you to get a portion of freshly ground aromatic coffee of the required volume at any time"
+      }
+    }
+  },
+  "maintenance": {
+    "temp": "This page is under construction. Please, call us if you have a question about coffee machine maintenance",
+    "care": "Take care of your coffee machine",
+    "about": "ITALY COFFEE SERVICE provides a complete range of services for the supply, installation, assistance and technical support of professional coffee machines Sanremo, Victoria Arduino, Nuova Simonelli, La Marzocco, Astoria, Futurmat, Wega and other brands",
+    "offers": "Special offers",
+    "offer1": "Free replacement coffee machine in case of major overhaul or complete maintenance",
+    "what": "Our services",
+    "offer-title-1": "Support service (consultancy, barista training, etc.)",
+    "offer-title-2": "Maintenance (installation, adjustment of the coffee grinder and coffee machine)",
+    "offer-title-3": "Spare parts and repairs",
+    "specialist": "Visit by a technical specialist",
+    "specialist-things": "* diagnostics of the coffee machine\n\n* checking the state of the rubber seals of the group\n\n* state of the steam taps, seals\n\n* checking the pressure of the pump/ boiler\n\n* checking the general technical condition of the equipment\n\n* identification of faults (determination of the final cost of repairs)\n\n* recommendations based on diagnostic results\n\n* minor repairs (included in cost of the call)\n\n* evaluation of the state of the coffee grinder's grinders\n\n* setting of grinding and weight\n\n* cleaning of the grinders (to be paid separately)",
+    "capital": "Major overhaul of coffee machine",
+    "capital-steps": "1. The coffee machine is completely disassembled down to the body\n2. The hydraulic system is descaled (all copper parts)\n3. The parts are carefully washed with running water and polished\n4. The case is washed at high pressure\n5. All consumables (pump, pressure switch, condenser, gaskets, filter, elastic O-rings, emergency and air valves, etc.) are replaced with new ones\n6 If necessary, the welding work are carried out (calculated separately), for example the making of pipes, the welding of a glass or the replacement of the flange itself\n7 Painting of the body panels (calculated separately) - all elements are sandblasted, then inserted into a chamber for painting"
+  }
+}

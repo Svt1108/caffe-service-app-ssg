@@ -1,0 +1,34 @@
+.maintenance-wrap {
+  background-image: url("../../../assets/images/back-service2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  color: #d8d2cd;
+  line-height: 150%;
+  letter-spacing: 0.05rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.maintenance-about {
+  max-width: 70rem;
+  white-space: pre-wrap;
+}
+
+.specialist-text {
+  font-size: 0.9rem;
+}
+
+.offer-title_maintenance {
+  min-height: 6.5rem;
+}
+
+.specialist-image-wrap {
+  display: block;
+  width: 90%;
+  overflow: hidden;
+  border-radius: 20% 0;
+  max-width: 20rem;
+}

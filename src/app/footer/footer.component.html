@@ -1,0 +1,90 @@
+<ng-container *transloco="let t; read: 'footer'">
+  <div
+    *ngIf="!(this.path404service.isPath404$ | async)"
+    class="absolute footer-wrap p-3 flex-column md:p-5 md:flex-row"
+    id="footer"
+  >
+    <div
+      class="logo-contacts-wrap flex-column gap-5 md:flex-row col-11 md:col-8"
+    >
+      <div class="footer-logo flex-row md:flex-column">
+        <div class="footer-image"></div>
+        <p class="logo-text">{{ t("logo") }}</p>
+      </div>
+      <div class="flex flex-column gap-6">
+        <div class="contacts-wrap">
+          <div class="phone-messenger-wrap">
+            <p>{{ t("contacts") }}</p>
+            <div class="flex flex-wrap md:flex-nowrap">
+              <a
+                href="tel:+79218633061"
+                class="link-not-default align-items-center phone"
+              >
+                <p>+7 921 863-30-61</p>
+              </a>
+              <a
+                href="tel:+79657699395"
+                class="link-not-default align-items-center phone"
+              >
+                <p>+7 965 769-93-95</p>
+              </a>
+            </div>
+            <div class="telegram-whatsapp-wrap">
+              <a
+                href="https://t.me/Konsta886"
+                class="align-items-center link-not-default flex gap-2"
+              >
+                <p class="messenger">
+                  <span style="font-size: 0.8rem">Telegram</span>
+                  <i class="pi pi-telegram" style="font-size: 1.5rem"></i>
+                </p>
+                <span style="font-size: 0.8rem">Konsta886</span>
+              </a>
+
+              <a
+                href="https://wa.me/+79218633061"
+                class="align-items-center link-not-default flex"
+              >
+                <p class="messenger">
+                  <span style="font-size: 0.8rem">Whatsapp</span>
+                  <i class="pi pi-whatsapp" style="font-size: 1.5rem"></i>
+                </p>
+                <span style="font-size: 0.9rem"
+                  >&nbsp;&nbsp;+7 921 863-30-61</span
+                >
+              </a>
+            </div>
+          </div>
+          <p class="address">{{ t("address") }}</p>
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3A70f5289dc52cdfbe73d8a0200fb26d541b03246cfd66e4d20b2428617ed216fd&amp;source=constructor"
+            width="320"
+            height="240"
+            frameborder="0"
+          ></iframe>
+        </div>
+        <div class="buy-wrap">
+          <p class="buy">{{ t("buy") }}</p>
+          <p class="delivery">{{ t("delivery") }}</p>
+          <p class="delivery">{{ t("public-offerta") }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="partners hidden md:flex md:col-4">
+      <a href="https://www.sanremomachines.com/">
+        <img
+          src="../../assets/images/logo-sanremo.png"
+          alt="sanremo"
+          class="h-2rem"
+        />
+      </a>
+      <a href="https://caffegoriziana.com/">
+        <img
+          src="../../assets/images/logo-goriziana.png"
+          alt="goriziana"
+          class="h-6rem"
+        />
+      </a>
+    </div>
+  </div>
+</ng-container>

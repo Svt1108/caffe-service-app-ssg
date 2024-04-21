@@ -1,0 +1,67 @@
+.not-found-wrap {
+  width: 100%;
+  height: 100vh;
+  color: #d8d2cd;
+  line-height: 150%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.button-back {
+  height: 4rem;
+  border: none;
+  padding: 1rem;
+  text-transform: uppercase;
+  color: #d8d2cd;
+  justify-content: center;
+  background-color: rgb(207, 18, 0, 0.7);
+  border: 3px solid rgb(1, 108, 33, 0.7);
+  margin-bottom: 10vh;
+}
+
+.not-found-image-wrap {
+  background-color: #140504;
+  animation: rotate-animation 5s linear infinite;
+}
+
+.not-found-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 10rem;
+  background-image: url(../../../assets/images/svg/logo-3-light.svg);
+}
+
+@keyframes rotate-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  13% {
+    transform: rotate(5deg);
+  }
+  26% {
+    transform: rotate(10deg);
+  }
+  39% {
+    transform: rotate(5deg);
+  }
+  52% {
+    transform: rotate(0deg);
+  }
+  65% {
+    transform: rotate(-5deg);
+  }
+  78% {
+    transform: rotate(-10deg);
+  }
+  90% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

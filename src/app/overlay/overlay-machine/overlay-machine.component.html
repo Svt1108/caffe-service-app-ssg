@@ -1,0 +1,37 @@
+<ng-container *transloco="let t; read: 'machine'">
+  <div class="overlay-wrap">
+    <div class="overlay-image-machine"></div>
+    <p class="overlay-title font-bold text-lg">{{ data?.name }}</p>
+    <div class="overlay-text font-semibold">
+      <p>
+        {{ t("data." + data?.id + ".description") }}
+      </p>
+      <br />
+      <div class="flex">
+        <div class="col-6 text-right">
+          <p class="text-sm">{{ t("voltage") }}</p>
+          <p class="text-sm">{{ t("power") }}</p>
+          <br />
+          <p class="text-sm">{{ t("width") }}</p>
+          <p class="text-sm">{{ t("height") }}</p>
+          <p class="text-sm">{{ t("depth") }}</p>
+          <br />
+          <p class="text-sm">{{ t("weight") }}</p>
+        </div>
+        <div class="col-6 text-left">
+          <p class="text-sm">{{ data?.voltage }}{{ t("volt") }}</p>
+          <p class="text-sm">{{ data?.power }}{{ t("watt") }}</p>
+          <br />
+          <p class="text-sm">{{ data?.width }}{{ t("mm") }}</p>
+          <p class="text-sm">{{ data?.height }}{{ t("mm") }}</p>
+          <p class="text-sm">{{ data?.depth }}{{ t("mm") }}</p>
+          <br />
+          <p class="text-sm">{{ data?.weight }}{{ t("kilogram") }}</p>
+        </div>
+      </div>
+
+      <br />
+      <p class="text-xs">{{ t("color") }}</p>
+    </div>
+  </div>
+</ng-container>

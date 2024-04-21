@@ -1,0 +1,27 @@
+.overlay-image-caffe {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 7rem;
+  height: 8rem;
+  background-image: url(../../../assets/images/svg/logo-6.svg);
+}
+
+.beans {
+  display: flex;
+  flex-direction: column;
+}
+
+.bean {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 2.2rem;
+  height: 2.2rem;
+  background-image: url(../../../assets/images/svg/bean.svg);
+}
+
+.property {
+  height: 2.2rem;
+  align-items: center;
+  justify-content: right;
+  display: flex;
+}

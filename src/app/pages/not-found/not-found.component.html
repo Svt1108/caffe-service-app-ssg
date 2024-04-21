@@ -1,0 +1,17 @@
+<ng-container *transloco="let t; read: 'not-found'">
+  <div class="not-found-wrap pt-7">
+    <div class="not-found-image-wrap">
+      <div class="not-found-image"></div>
+    </div>
+    <p>{{ t("not-found-text") }}</p>
+    <button
+      pButton
+      pRipple
+      type="button"
+      class="button-back"
+      (click)="onBackClick()"
+    >
+      {{ t("back") }}
+    </button>
+  </div>
+</ng-container>

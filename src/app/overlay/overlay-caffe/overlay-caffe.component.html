@@ -1,0 +1,51 @@
+<ng-container *transloco="let t; read: 'caffe'">
+  <div class="overlay-wrap">
+    <div class="overlay-image-caffe"></div>
+    <p class="overlay-title font-bold text-lg">{{ data?.name }}</p>
+    <div class="overlay-text font-semibold">
+      {{ t("data." + data?.id + ".description") }}
+      <br />
+      <div *ngIf="data?.creaminess !== 0" class="flex pt-3">
+        <div class="col-6">
+          <p class="property text-sm">{{ t("creaminess") }}</p>
+          <p class="property text-sm">{{ t("intensity") }}</p>
+          <p class="property text-sm">{{ t("density") }}</p>
+          <p class="property text-sm">{{ t("aroma") }}</p>
+          <p class="property text-sm">{{ t("sweetness") }}</p>
+        </div>
+        <div class="col-6 text-left beans">
+          <div class="flex flex-nowrap">
+            <div
+              *ngFor="let i of [].constructor(data?.creaminess)"
+              class="bean"
+            ></div>
+          </div>
+          <div class="flex flex-nowrap">
+            <div
+              *ngFor="let i of [].constructor(data?.intensity)"
+              class="bean"
+            ></div>
+          </div>
+          <div class="flex flex-nowrap">
+            <div
+              *ngFor="let i of [].constructor(data?.density)"
+              class="bean"
+            ></div>
+          </div>
+          <div class="flex flex-nowrap">
+            <div
+              *ngFor="let i of [].constructor(data?.aroma)"
+              class="bean"
+            ></div>
+          </div>
+          <div class="flex flex-nowrap">
+            <div
+              *ngFor="let i of [].constructor(data?.sweetness)"
+              class="bean"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>

@@ -1,0 +1,103 @@
+<ng-container *transloco="let t; read: 'main'">
+  <p-scrollTop></p-scrollTop>
+  <div class="main-wrap distance-to-footer pt-8 md:pt-7">
+    <div class="common-text-wrap">
+      <p class="running-text">{{ t("can-buy") }}</p>
+    </div>
+    <div class="block-title-wrap pt-6">
+      <h2 class="block-title">{{ t("who") }}</h2>
+    </div>
+    <div class="main-text-wrap">
+      <video
+        id="video"
+        class="video-player max-w-21rem md:max-w-30rem"
+        data-video-player--video-player-target="video"
+        poster="../../../assets/images/poster.jpg"
+        src="../../../assets/video/coffee-video.mp4"
+        type="video/mp4"
+        controlslist="nodownload"
+        disablepictureinpicture
+        webkit-playsinline="true"
+        playsinline
+        autoplay
+        loop
+        muted="true"
+        onclick="this.play()"
+      ></video>
+      <p class="main-text">{{ t("who-text") }}</p>
+    </div>
+    <div class="block-title-wrap">
+      <h2 class="block-title">{{ t("what") }}</h2>
+    </div>
+    <div class="flex w-full justify-content-center">
+      <div class="offers-wrap">
+        <div
+          class="offer pointer scale-img shadow-6"
+          (click)="onCardClick('machine')"
+        >
+          <p class="offer-title">{{ t("offer-title-1") }}</p>
+          <div class="offer-image-wrap">
+            <img
+              src="../../../assets/images/machine.png"
+              alt="machine"
+              class="offer-image"
+            />
+          </div>
+          <p class="offer-text">{{ t("offer-text-1") }}</p>
+        </div>
+        <div
+          class="offer pointer scale-img shadow-6"
+          (click)="onCardClick('maintenance')"
+        >
+          <p class="offer-title">{{ t("offer-title-2") }}</p>
+          <div class="offer-image-wrap">
+            <img
+              src="../../../assets/images/service.png"
+              alt="service"
+              class="offer-image"
+            />
+          </div>
+          <p class="offer-text">{{ t("offer-text-2") }}</p>
+        </div>
+        <div
+          class="offer pointer scale-img shadow-6"
+          (click)="onCardClick('caffe')"
+        >
+          <p class="offer-title">{{ t("offer-title-3") }}</p>
+          <div class="offer-image-wrap">
+            <img
+              src="../../../assets/images/caffe.png"
+              alt="caffe"
+              class="offer-image"
+            />
+          </div>
+          <p class="offer-text">{{ t("offer-text-3") }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-title-wrap">
+      <div class="logo-block1"></div>
+      <h2 class="block-title">{{ t("clients") }}</h2>
+    </div>
+    <div class="main-text-wrap">
+      <p class="main-text">
+        {{ t("clients-text")
+        }}<span class="font-bold">{{ t("clients-text-semibold") }}</span
+        >.
+      </p>
+      <div class="slider w-23rem h-13rem md:w-30rem md:h-17rem">
+        <div *ngFor="let photo of photos; let i = index">
+          <img
+            @sliderTrigger
+            *ngIf="i === (photoIndex$ | async)"
+            src="../../../assets/images/clients/{{ photos[i] }}"
+            alt="picture"
+            class="slide w-full h-auto"
+          />
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </div>
+</ng-container>
