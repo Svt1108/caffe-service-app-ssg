@@ -1,27 +1,11 @@
 # CaffeServiceApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+This project was generated with Angular version 17.1.2.
 
-## Development server
+## Deploy
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+https://www.italy-coffee-service.com/
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+It's a static online showcase (without payment via internet etc, as it was the client's wish), so it was developed with Angular Static Site Generation (SSG) technology, that is prerendering. The SSG technology is quite new, it was created at the end of 2023. The final bundle is a set of static files (prerendering of all pages of the site), which is stored on the server and transferred to the client when user opens the site. In this way, no time is wasted on page rendering and the site loading speed depends only on the Internet speed.
